@@ -4,7 +4,6 @@ import jakarta.validation.Valid;
 import org.generation.marify.dtos.ArtistRequest;
 import org.generation.marify.models.Artist;
 import org.generation.marify.services.ArtistService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -22,7 +21,6 @@ import java.util.List;
 public class ArtistController {
     private final ArtistService artistService;
 
-    @Autowired
     public ArtistController(ArtistService artistService){
         this.artistService = artistService;
     }

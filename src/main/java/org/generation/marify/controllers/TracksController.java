@@ -3,7 +3,6 @@ package org.generation.marify.controllers;
 import lombok.AllArgsConstructor;
 import org.generation.marify.dtos.TracksRequest;
 import org.generation.marify.models.Tracks;
-import org.generation.marify.repository.TracksRepository;
 import org.generation.marify.services.TracksService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
